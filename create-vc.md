@@ -60,7 +60,7 @@ Laravelでは、コントローラに記述する`create` メソッドは、「�
     <title>サンプル</title>
     </head>
     <body>
-        <h3>商品をカートに追加</h3>
+        <h3>カートに追加</h3>
         <form action="{{ route('cart.store') }}" method="POST">
         @csrf
         番号:<input type="number" name="ident" min="1" max="15"><br>
